@@ -18,4 +18,6 @@ when "mult"
 when "div"
   sum = num_one / num_two
   p "Your result is #{sum}"
+else
+  p "Invalid operation entered"
 end
