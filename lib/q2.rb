@@ -1,8 +1,5 @@
 def reverse_string(string)
-  split_string = string.split("")
-  reverse_string = []
-  string.size.times { reverse_string << split_string.pop }
-  p reverse_string.join
+  string.chars.reduce{ |x, y| y + x}
 end
 
-reverse_string "hello"
+p reverse_string "hello"
